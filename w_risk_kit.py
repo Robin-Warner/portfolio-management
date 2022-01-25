@@ -3,24 +3,6 @@ import numpy as np
 import scipy.stats
 from scipy.optimize import minimize
 
-def get_q1_returns():
-    '''
-    Load the XMG Q1 returns dataset
-    '''
-    rets = pd.read_csv('~/Desktop/OTPP Case Study/XMG Case Study Data - Question 1.csv',
-                       header=0, index_col=0, parse_dates=True)
-    rets.index = rets.index.to_period(freq='D')
-    return rets
-
-def get_q3_lvls():
-    '''
-    Load the XMG Q1 returns dataset
-    '''
-    rets = pd.read_csv('~/Desktop/OTPP Case Study/XMG Case Study Data - Question 3_lvls.csv',
-                       header=0, index_col=0, parse_dates=True)
-    #rets.index = rets.index.to_period(freq='D')
-    return rets
-
 def drawdown(return_series: pd.Series):
     '''
     Takes a pandas time series of asset returns
