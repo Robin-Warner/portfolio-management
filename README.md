@@ -3,7 +3,7 @@ A repository containing items related to the practice of financial portfolio man
 
 The project is organized in 5 sections:
    
-- **Data curation**: responsible for collecting, cleaning, indexing, storing, adjusting, and delevering all data to the production chain.
+- **Data Curation**: responsible for collecting, cleaning, indexing, storing, adjusting, and delevering all data to the production chain.
 
 - **Feature Creation**: responsible for transforming raw data into informative signals that have some predictive power ofer financial variables.
 
