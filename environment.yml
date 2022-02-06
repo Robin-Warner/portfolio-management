@@ -1,0 +1,10 @@
+name: portfolio-management
+channels:
+  - defaults
+dependencies:
+  - python=3.10.0
+  - pandas
+  - pip:
+    - pip==21.2.4
+    - setuptools==58.0.4
+    - yfinance==0.1.70
